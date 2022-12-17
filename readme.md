@@ -6,4 +6,4 @@
 
 Date de remise : le dernier jour de la semaine #15
 
-Github page : https://github.com/tobiruno/1w1.git
+Github page : https://github.com/tobiruno/TP2.git
