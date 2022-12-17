@@ -1,0 +1,40 @@
+.formulaire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.formulaire label {
+  margin: 10px 0 0 0;
+  border: 1px solid #aaa;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px;
+}
+
+/* ne s'applique que sur <input type="text"> */
+.formulaire input[text] {
+  width: 200px;
+  padding: 10px;
+}
+/* Ne s'applique que sur <input type=.checkbox> */
+.formulaire input[checkbox] {
+  padding: 5px;
+}
+.langage {
+  padding: 10px 0;
+}
+.langage label {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+#inscription {
+  background-color: rgb(33, 37, 37);
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  padding: 50px;
+  justify-content: flex-start;
+  align-items: baseline;
+}

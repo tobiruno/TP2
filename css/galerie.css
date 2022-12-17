@@ -1,0 +1,25 @@
+#galerie {
+  background-color: #373a5e;
+  color: white;
+}
+#galerie h1 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+}
+.fig__galerie {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 10px 2px 10px black;
+} 
+.fig__galerie:hover {
+  transform: scale(1.25);
+  translate: transform 0.5s;
+}
+.imgVball {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

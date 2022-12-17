@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tp2-etape-1</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/inscription.css" />
+    <link rel="stylesheet" href="css/galerie.css" />
+  </head>
+  <body>
+    <!-- nav>(a>lorem1)*5-->
+    <nav class="menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#inscription">Inscription</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#articles">Articles</a>
+      <a href="#video">Vidéo</a>
+      <a href="#footer">Footer</a>
+      <a href="#tableau">Tableau</a>
+    </nav>
+    <section id="accueil">
+      <h1>TP2</h1>
+      <h2>Sujet: Volleyball</h2>
+      <h3>Auteur: Khun Andy</h3>
+      <p>
+        1W1 - Mise en page Web - Techniques d'intégration multimédia - Collège
+        de Maisonneuve
+      </p>
+    </section>
+    <section id="inscription">
+      <h1>Inscription</h1>
+      <form class="formulaire">
+        <label for="txt_prenom">Votre prénom</label>
+        <input type="text" name="txt_prenom" id="txt_prenom" />
+        <label for="txt_nom">Votre nom</label>
+        <input type="text" name="txt_nom" id="txt_nom" />
+        <div class="langage">
+          <p>Quel est votre niveau?</p>
+          <label for="chk-html"
+            >Débutant(e)
+            <input type="checkbox" name="" id="chk-html" />
+          </label>
+          <label for="chk-css"
+            >Expert(e)
+            <input type="checkbox" name="" id="chk-css" />
+          </label>
+        </div>
+      </form>
+    </section>
+    <!-- //////////////////////////////////////////////////////////////////////// Tableau -->
+    <section id="galerie">
+      <h1>Galerie</h1>
+      <h2>Le volleyball pour n'importe qui à n'importe quel âge!</h2>
+      <section class="imgVball">
+      <figure class="fig__galerie">
+        <img src="images/volleyball.jpg" alt="collège" 
+        width="300"
+        height="169"
+        /> 
+      </figure>
+      <figure class="fig__galerie">
+        <img src="images/womenVolleyball.webp" alt="collège" 
+        width="300"
+        height="169"
+        />
+      </figure>
+      <figure class="fig__galerie">
+        <img src="images/menVolleyball.jpg" alt="collège" 
+        width="300"
+        height="169"
+        />
+      </figure>
+      <figure class="fig__galerie">
+        <img src="images/nishidavball.jpg" alt="collège" 
+        width="300"
+        height="169"
+        />
+      </figure>
+      <figure class="fig__galerie">
+        <img src="images/vball.jpg" alt="collège" 
+        width="300"
+        height="169"
+        />
+      </figure>
+      </section>
+
+    </section>
+    <section id="tableau">
+      <h1>Tableau</h1>
+      <!--table>(tr>(td>lorem2)*3)*4 -->
+      <table class="mon_tableau">
+        <tr>
+          <th></th>
+          <th>6 - 11 ans</th>
+          <th>12 - 17 ans</th>
+          <th>18 ans et plus</th>
+        </tr>
+        <tr>
+          <th>Prix mensuel</th>
+          <td>45$</td>
+          <td>150$</td>
+          <td>175$</td>
+        </tr>
+        <tr>
+          <th>Prix annuel</th>
+          <td>300$</td>
+          <td>450$</td>
+          <td>600$</td>
+        </tr>
+      </table>
+    </section>
+    <section id="articles">
+      <h1>Articles</h1>
+      <h2>Les événements à venir</h2>
+      <figure class="imgArticles">
+        <img src="images/evenementVball.jpg" alt="collège"
+        width="300"
+        height="169"
+        >
+      </figure>
+    </section>
+    <section id="video">
+      <h1>Vidéo</h1>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/prXYKIX9UTM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <iframe 
+      width="560" 
+      height="315" 
+      src="https://www.youtube.com/embed/bEqTg3BTwNQ" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen
+      ></iframe>
+    </section>
+    <!-- ///////////////////////////////// FOOTER //////////////////////////////////-->
+    <section id="footer">
+      <h1>Pied de page</h1>
+      <footer>
+        <section class="gris">
+          <h2>1W1 - Mise en page Web</h2>
+            <dl>
+              <dt>Description</dt>
+              <dd>
+                Au cours de ta formation, 
+                tu apprendras à identifier, 
+                analyser, imaginer, réaliser 
+                et coordonner différents projets 
+                numériques et les différentes 
+                étapes de production
+              </dd>
+            </dl>
+          <dl>
+            <dt>Liens importants</dt>
+            <dd>Accueil</dd>
+            <dd>Inscription</dd>
+            <dd>Galerie</dd>
+            <dd>Articles</dd>
+            <dd>Vidéo</dd>
+            <dd>Footer</dd>
+            <dd>Tableau</dd>
+          </dl>
+          
+            <form class="Recherche">
+              <input type="text" placeholder="Rechercher" />
+              <img
+                src="https://s2.svgbox.net/octicons.svg?ic=search&color=fff"
+                width="16"
+                height="16"
+              />
+            </form>
+          </div>
+  
+          <p>
+            TIM - Techniques d'intégration multimédia - Collège de Maisonneuve -
+          </p>
+          <p>
+            3 800, rue Sherbrooke Est Montréal (Québec) H1X 2A2 | 514 254-7131
+          </p>
+          <div class="medias">
+            <span>
+              <a href="#"><img src="image/facebook_32.png" alt="" /></a>
+              <a href="#"><img src="image/instagram_32.png" alt="" /></a>
+              <a href="#"><img src="image/youtube_32.png" alt="" /></a>
+            </span>
+        </section>
+      </footer> 
+    </section>
+
+    
+
+  </body>
+</html>

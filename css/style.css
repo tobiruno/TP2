@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+/* /////////////////////////////////////////////////// Les sections de la page */
+section {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 3rem;
+  text-shadow: 2px, 2px, 4px, #bbb;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  font-size: 15px;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* //////////////////////////////////////////////////// Gestion du menu */
+/* Menu principale du site. Si on utilise un positionnement fixed pour que le menu
+reste en haut de chacune des sections */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 15px;
+}
+.menu a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 4px 1rem;
+}
+.menu a:hover{
+  transform: scale(1.25);
+  translate: transform 0.5;
+}
+/* /////////////////////////////// ACCUEIL ///////////////////////// */
+#accueil {
+  background-color: cornflowerblue;
+  flex-direction: column;
+  display: flex;
+  /*justify-content: space-around; */
+  background-image: url("../images/vball.jpg") ; 
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: purple;
+}
+
+#articles {
+  background-color: #9f409cfa;
+  box-shadow: 9px 5px 10px black;
+}
+
+
+#video {
+  background-color: red;
+}
+/* /////////////////////////// FOOTER ////////////////////////// */
+#footer {
+  background-color: black;
+  color: white;
+}
+.gris {
+  background-color: rgba(63, 63, 63, 0.541);
+  width: 1100px;
+  margin: 0 auto;
+}
+
+footer dl dt {
+  margin: 5px;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  }
+footer dl dd {
+margin: 5px;
+text-align: center;
+margin: 10px;
+}

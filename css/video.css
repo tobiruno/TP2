@@ -1,0 +1,16 @@
+.youtube {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#video {
+  background-color: red;
+}
+.video {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 10px 2px 10px black;
+} 
